@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>ife_task1_2</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="ife_task1_2.css">
+</head>
+<body>
+	<div class="title">
+		<img src="cat.jpg">
+		<ul>
+			<a href="#"><li>导航链接四</li></a>
+			<a href="#"><li>导航链接三</li></a>
+			<a href="#"><li>导航链接二</li></a>
+			<a href="#"><li>导航链接一</li></a>
+		</ul>
+	</div>
+
+	<div class="article_1">
+		<h1>文章一级标题</h1>
+		<h2 >文章二级标题</h2>
+		<p>文章作者&nbsp文章发表时间</p>
+		<p class="text">这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<a href="http://www.ife.baidu.com">这里有一个链接到ife的链接,</a>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</p>
+		<p><img src="cat.jpg"></p>
+    </div>
+    <div class="article_2">
+    	<h1>另一篇文章标题</h1>
+    	<h2>文章二级标题</h2>
+    	<p>文章作者 文章发表时间</p>
+    	<p class="text">这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,<a href="http://www.ife.baidu.com">这里有一个链接到ife的链接,</a>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</p>
+		<ul style="list-style: none">
+			<li>列表项目一</li>
+			<li>列表项目二</li>
+			<li>列表项目三</li>
+		</ul>
+    </div>
+    <div class="images">
+    	<h1>图片</h1>
+    	<div class="content">
+    		<p style="text-align: center">好看的图片</p>
+    		<img src="cat.jpg">
+    	</div>
+    	<div>
+    		<p style="text-align: center">好看的图片</p>
+    		<img src="cat.jpg">
+    	</div>
+    	<div>
+    		<p style="text-align: center">好看的图片</p>
+    		<img src="cat.jpg">
+    	</div>
+    </div>
+    <div class="last_article">
+    	<h1>最后一篇文章的一级标题</h1>
+    	<h2>文章的二级标题</h2>
+    	<p>文章作者 文章发表时间</p>
+    	<ol>
+    		<li>排名1</li>
+    		<li>排名2</li>
+    		<li>排名3</li>
+    	</ol>
+    	<p>下面是一个表格，我这里给表格加了一个border="1"好让你看出是一个表格</p>
+    	<table rules="all">
+			<th>表头</th>
+			<th>表头</th>
+			<th>表头</th>
+			<tbody>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="#">操作</a></td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="#">操作</a></td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="#">操作</a></td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="#">操作</a></td>
+				</tr>
+				<tr>
+					<td>总计</td>
+					<td  colspan="2">1000</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<aside>
+		<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+		<form action="" method="post">
+            <div>
+                <label class="tips">请输入邮箱地址</label>
+
+                <input type="text" placeholder="邮箱" />
+                <p>邮箱地址请按要求格式输入</p>
+            </div>
+            
+            <div>
+                <label class="tips">请输入密码</label>
+                <input type="password" placeholder="密码" />
+            </div>
+            
+            <div>
+                <label class="tips">请重复输入密码</label>
+                <input type="password" placeholder="请重复输入密码" />
+                <p>密码请为6-16位英文数字</p>
+            </div>                <!--同一组的单选按钮，name 取值一定要一致，这样同一组的单选按钮才可以起到单选的作用。-->
+            <div>
+                <label class="tips">性别</label>
+                <!--value提交数据到服务器的值；checked默认被选中-->
+
+                <input type="radio" value="male" name="sex" checked="checked" />
+                <label>男</label>
+                <input type="radio" value="female" name="sex" />
+                <label>女</label>
+            </div>
+            <div>
+                <label class="tips">城市</label>
+                <select>
+                    <option value="北京">北京</option>
+                    <option value="上海" selected="selected">上海</option>
+                    <option value="广州">广州</option>
+                </select>
+            </div>
+            <div>
+                <label class="tips">爱好</label>
+                <input type="checkbox" value="sport" name="hobby" />
+                <label>运动</label>
+                <input type="checkbox" value="art" name="hobby" />
+                <label>艺术</label>
+                <input type="checkbox" value="science" name="hobby" />
+                <label>科学</label>
+            </div>
+            <div>
+                <label class="tips">个人描述</label>
+
+                <textarea rows="2" cols="20" >这是一个多行输入框( •̀ .̫ •́ )✧</textarea>
+            </div>
+        </form>
+        <input type="button" class="submitButton" value="确认提交" />
+	</aside>
+    <footer>
+        <p>版权所有ⓒ</p>
+    </footer>
+</body>
+</html>
